@@ -1,0 +1,24 @@
+{
+  "name": "vnsource/module-menu",
+  "displayName": "Menu",
+  "type": "module",
+  "description": "The VnSource Module Menu",
+  "homepage": "https://github.com/vnsource/module-menu",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Mr. VnS",
+      "email": "lienhe.vns@gmail.com"
+    }
+  ],
+  "autoload": {
+      "files": [],
+      "psr-4": {
+          "VnsModules\\Menu\\": "/"
+      }
+  },
+  "providers": [
+    "VnsModules\\Menu\\ModuleServiceProvider"
+  ]
+}
